@@ -1,0 +1,23 @@
+body{
+    background-color: darkslategray;
+    margin: 0;
+    padding: 20px;
+    color: goldenrod; /*Cor de texto*/
+}
+
+h1{
+    color: goldenrod;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: mediumpurple;
+}
+
+.classes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-between;
+}
