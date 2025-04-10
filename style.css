@@ -15,7 +15,7 @@ h4{
     color: mediumpurple;
 }
 
-.classes{
+.galeria{
     display: flex;
     flex-wrap: wrap;
     gap:20px;
