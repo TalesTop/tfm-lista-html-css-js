@@ -13,9 +13,12 @@ body{
 }
 
 h1{
-    color: goldenrod;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 3em;
+    background: linear-gradient(to right,#1E5EB1, #babeeb, #0d1247);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h4{
@@ -30,12 +33,13 @@ h4{
 }
 
 .galeria-item{
-    background-color: crimson;
+    background-color: rgb(20, 220, 210);
     border-radius: 8px;
     box-shadow: 0 2px 5px red(0,0,0,0.1);
     padding: 10px;
     flex: 1 1 calc(33.33% - 20px);
     text-align: center;
+    transition: transform 0.3s ease;
 }
 
 .galeria-item h4{
@@ -53,6 +57,11 @@ h4{
 }
 
 .galeria-item img:hover{
-    transform: scale(1.45);
+    transform: scale(1.07);
+    box-shadow: 0 4px 7.5px brown(0, 0, 0, 0, 0.7);
+}
 
+.galeria-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 7.5px brown(0, 0, 0, 0, 0.7);
 }
